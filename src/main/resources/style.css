@@ -1,0 +1,53 @@
+.flightlist *,
+.flightMaps{
+    color: #fff;
+    font: 12px Arial, sans-serif;
+}
+.flightlist{
+    margin: 0;
+    padding: 0;
+}
+template{
+  display:none;
+}
+.flightlist li{
+    padding: 10px;
+    border-bottom: 1px solid #555;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.flightlist li:hover{
+    background: #666;
+}
+
+.flightlist li.selected{
+    background: orange;
+    font-weight: bold;
+}
+.flightMaps *{
+  color: #fff;
+}
+
+.flightMaps{
+    padding: 10px;
+    overflow: auto;
+    height: 1080px;
+    position: relative;
+}
+
+.flightMaps img{
+    float: left;
+    position: absolute;
+    margin-right: 10px;
+    z-index: 1;
+}
+
+.flightMaps h2{
+    margin-top: 0;
+}
+
+.planeImg{
+    position: relative;
+    z-index: 2;
+}
